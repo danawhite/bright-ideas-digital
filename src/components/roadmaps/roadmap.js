@@ -58,7 +58,7 @@ function Roadmap(props) {
     <section id="schedule">
         <div class="col-md-6 col-lg-offset-3 proposal-content">
             <h3>Schedule</h3>
-            <img src="./resources/assets/images/calendar.png"/>
+            <img src="../resources/assets/images/calendar.png"/>
             <p class="proposal-content">Our task will be to strengthen your brand online by implementing a customized development strategy with proven methods and results. 
               Our goal is to position Book A Boat as the leading option amongst other applications that provide a similar service. Currently, the market is wide open </p>
             <p>The focus is always the communication of values and innovation.</p>
@@ -75,7 +75,7 @@ function Roadmap(props) {
     <section id="planning">
         <div class="col-md-6 col-lg-offset-3 proposal-content">
             <h3>Requirements Analysis</h3>
-            <img src="./resources/assets/images/pencil.png"/>
+            <img src="../resources/assets/images/pencil.png"/>
             <div class="row">
                 <div class="col-md-8">
                     <p>Planning is an objective of each and every activity, where we want to discover things that belong to the project. An important task in creating a software application is extracting the requirements or requirements analysis.</p>
@@ -98,7 +98,7 @@ function Roadmap(props) {
     <section id="design">
         <div class="col-md-6 col-lg-offset-3 proposal-content">
             <h3>Design</h3>
-            <img src="./resources/assets/images/pencil.png"/>
+            <img src="../resources/assets/images/pencil.png"/>
             <div class="row">
                 <div class="col-md-5">
                     <h4>Systems Design</h4>
@@ -128,7 +128,7 @@ function Roadmap(props) {
     <section id="infrastructure">
         <div class="col-md-6 col-lg-offset-3 proposal-content">
             <h3>Setup Infrastructure</h3>
-            <img src="./resources/assets/images/cloud.png"/>
+            <img src="../resources/assets/images/cloud.png"/>
             <div class="row">
                 <div class="col-md-5">
                     <h4>Configure cloud hosting</h4>
@@ -251,7 +251,7 @@ function Roadmap(props) {
     <section id="testing">
         <div class="col-md-6 col-lg-offset-3 proposal-content">
             <h3>Integration and Testing</h3>
-            <img src="./resources/assets/images/tools.png"/>
+            <img src="../resources/assets/images/tools.png"/>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 item-content">
                     <p>After the code is developed it is tested against the requirements to make sure that the
@@ -269,7 +269,7 @@ function Roadmap(props) {
     <section id="deployment">
         <div class="col-md-6 col-lg-offset-3 proposal-content">
             <h3>Deployment</h3>
-            <img src="./resources/assets/images/airplane.png"/>
+            <img src="../resources/assets/images/airplane.png"/>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 item-content">
                     <p>Once we verify that the different components of the application work together as expected,
