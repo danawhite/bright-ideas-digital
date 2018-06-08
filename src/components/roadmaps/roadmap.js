@@ -5,291 +5,318 @@ function Roadmap(props) {
     return (
         <div>
         <section id="header">
-            <div class="container">
-                <div class="row">
-                    <div class="proposal-content">
-                        <h1>Schedule for your project</h1>
-                        <h4>Develop a hybrid mobile application</h4>
-                        <h6>Bright Ideas | Author: Dana A. White  03-07-2016 (updated 04-28-2016)</h6>
-                        <hr/>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-1 col-md-5 proposal-content">
+                    <h2>Schedule for Book A Boat project</h2>
+                    <h6>Bright Ideas | Author: Dana A. White  06-04-2018</h6>
+                    <hr/>
                 </div>
-                <div class="col-md-8 col-lg-offset-2">
-                    <p class="proposal-content">Larry</p>
-                        <p>The following schedule is based on general research and analysis of your project. The goals that you want to achieve with the implementation of the project can be broken down to the following:</p>
-                    <ul>
-                        <li>Create an community of users who suffer from one or more of a predetermined list of diseases/conditions</li>
-                        <li>Create an network of Good Samaritans who are willing to help patients who need some form of care/assistance before first responders arrive on the scene. </li>
-                        <li>Maximum return on investment</li>
-                    </ul>
-                    <p>As an agency with a focus on return on investment, we are dedicated to creating a robust, highly scalable application that will allow you to focus on
-                        securing clients  and building a community with the confidence that users will have a consistent, immersive experience each time they visit {client}.
-                    <p>To achieve the above objectives, we divide the upcoming project into 5 sections:</p>
-                    <ul>
-                        <li>Planning & Requirements Analysis</li>
-                        <li>Design</li>
-                        <li>Technical Implementation</li>
-                        <li>Integration & Testing</li>
-                        <li>Deployment</li>
-                    </ul>
-                    </p>
+            </div>
+            <div class="col-md-8">
+                <p class="proposal-content">Larry,
                     <br/>
-                    <div class="col-md-9  col-md-offset-2 proposal-content">
-                        <ul class="list-inline">
-                            <li><a href="#schedule">Schedule</a></li>
-                            <li><a href="#planning">Planning & Requirements Analysis (Strategy)</a></li>
-                            <li><a href="#design">Design</a></li>
-                            <li><a href="#social">Social Media Rollout</a></li>
-                            <li><a href="#infrastructure">Setup Infrastructure</a></li>
-                            <li><a href="#development">Technical Implementation</a></li>
-                            <li><a href="#testing">Integration & Testing</a></li>
-                            <li><a href="#deployment">Deployment</a></li>
-                            <li><a href="#investment">Investment</a></li>
-                        </ul>
-                        <br/>
-                        <br/>
-                    </div>
+                    The following schedule is based on general research and analysis of your project along with context gained from our conversations. 
+                    The goals that you want to achieve with the implementation of the project can be broken down to the following:</p>
+                <ul>
+                    <li>Create a network of boat and yacht owners who are looking to rent their vehicle for a variety of events</li>
+                    <li>Create an network of users who are interested in booking a boat, yacht or other types of nautical vehicles for recreational purposes.</li>
+                    <li>Create a community that connects these 2 networks.</li>
+                    <li>Achieve maximum return on investment</li>
+                </ul>
+                <p>As a consultancy with a focus on return on investment, <strong>Bright Ideas</strong> is dedicated to creating a robust, highly scalable applications that 
+                  will allow you to focus on securing clients and building a community with the confidence that users will have a consistent, immersive 
+                  experience each time they visit Book A Boat.
+                <p>To achieve the above objectives, we divide the upcoming project into 5 sections:</p>
+                <ul>
+                    <li>Planning & Requirements Analysis</li>
+                    <li>Design</li>
+                    <li>Technical Implementation</li>
+                    <li>Integration & Testing</li>
+                    <li>Deployment</li>
+                </ul>
+                </p>
+                <br/>
+                <div class="col-md-9 col-md-offset-2 proposal-content">
+                    <ul class="list-inline">
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#planning">Planning & Requirements Analysis</a></li>
+                        <li><a href="#design">Design</a></li>
+                        <li><a href="#infrastructure">Setup Infrastructure</a></li>
+                        <li><a href="#development">Technical Implementation</a></li>
+                        <li><a href="#testing">Integration & Testing</a></li>
+                        <li><a href="#deployment">Deployment</a></li>
+                        <li><a href="#investment">Investment</a></li>
+                    </ul>
+                    <br/>
+                    <br/>
                 </div>
+            </div>
+        </div>
+        <hr/>
+    </section>
+    <section id="schedule">
+        <div class="col-md-6 col-lg-offset-3 proposal-content">
+            <h3>Schedule</h3>
+            <img src="./resources/assets/images/calendar.png"/>
+            <p class="proposal-content">Our task will be to strengthen your brand online by implementing a customized development strategy with proven methods and results. 
+              Our goal is to position Book A Boat as the leading option amongst other applications that provide a similar service. Currently, the market is wide open </p>
+            <p>The focus is always the communication of values and innovation.</p>
+            <p>We achieve this through the following points:</p>
+            <ul class="item-content">
+                <li>Providing a dynamic user experience for the end user</li>
+                <li>Implementation of cutting-edge features</li>
+                <li>Maintaining a consistent user experience across multiple screens</li>
+            </ul>
+            <p>The focus of the above strategies is on the quality, feel and impact of your product to communicate online in such a way that owners and customers talk about your brand online and offline, thus growing the brand virally.</p>
+            <hr/>
+        </div>
+    </section>
+    <section id="planning">
+        <div class="col-md-6 col-lg-offset-3 proposal-content">
+            <h3>Requirements Analysis</h3>
+            <img src="./resources/assets/images/pencil.png"/>
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Planning is an objective of each and every activity, where we want to discover things that belong to the project. An important task in creating a software application is extracting the requirements or requirements analysis.</p>
+                    <p>At this point, we will discuss abstract ideas that you expect as an end result and convert the relevant aspects into the system design.</p>
+                </div>
+                <br/>
+                <div class="col-md-5">
+                    <h4>Project Plan</h4>
+                </div>
+                <div class="col-md-6 item-content">
+                    <p>Requirements that are created as a result of this brainstorming between Bright Ideas and Book A Boat will subsequently be added to <a href="http://github.com" target="_blank">Github Projects</a>, 
+                      our preferred project management tool, as tasks for developers to complete. These tasks will be tracked and reviewed iteratively by Book A Boat and Bright Ideas.</p>
+                    <p>At this point, we will discuss abstract ideas and set expectations and milestones to ensure that the project stays on course.</p>
+                </div>
+                <br/>
             </div>
             <hr/>
-        </section>
-        <section id="schedule">
-            <div class="col-md-6 col-lg-offset-3 proposal-content">
-                <h3>Schedule</h3>
-                <img src="../../app/resources/assets/images/calendar.png"/>
-                <p class="proposal-content">Our task will be to strengthen your brand online by implementing a customized development strategy with proven methods and results. Our goal is to position {client} as the leading option amongst other applications that provide a similar service.</p>
-                <p>The focus is always the communication of values and innovation.</p>
-                <p>We achieve this through the following points:</p>
-                <ul class="item-content">
-                    <li>Providing a dynamic user experience for the end user</li>
-                    <li>Implementation of cutting-edge features and trends</li>
-                    <li>Maintaining a consistent user experience across multiple screens</li>
-                </ul>
-                {/* <!--<p>Customers should be satisfied after every {client} session. The point is to document the customer experience, communicate online through social media, and to spread the message virally. Potential new customers will immediately understand what is actually mediated only by a session on site. This will help your brand to be known and trusted to drive traffic to your site and to sustainably increase sales.</p>--> */}
-                <p>The focus of the above strategies is on the quality, the feel and the impact of your product to communicate online in such a way that visitors and customers talk about your brand online and offline, thus growing the brand virally.</p>
-                <hr/>
-            </div>
-        </section>
-        <section id="planning">
-            <div class="col-md-6 col-lg-offset-3 proposal-content">
-                <h3>Requirements Analysis</h3>
-                <img src="../../app/resources/assets/images/pencil.png"/>
-                <div class="row">
-                    <div class="col-md-8">
-                        <p>Planning is an objective of each and every activity, where we want to discover things that belong to the project. An important task in creating a software program is extracting the requirements or requirements analysis.</p>
-                        <p>At this point, we will discuss abstract ideas that you expect as an end result and convert the relevant aspects into the system design.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <h4>Project Plan</h4>
-                    </div>
-                    <div class="col-md-5 item-content">
-                        <p>Requirements that are created as a result of this brainstorming between Bright Ideas and {client} will subsequently be added to <a href="http://planscope.io" target="_blank">Planscope</a>, our preferred project management tool, as tasks for developers to complete. These tasks will be tracked and reviewed iteratively by {client} and Bright Ideas.</p>
-                        <p>At this point, we will discuss abstract ideas that you expect as an end result and convert the relevant aspects into the system design.</p>
-                    </div>
-                    <br/>
+        </div>
+    </section>
+    <section id="design">
+        <div class="col-md-6 col-lg-offset-3 proposal-content">
+            <h3>Design</h3>
+            <img src="./resources/assets/images/pencil.png"/>
+            <div class="row">
+                <div class="col-md-5">
+                    <h4>Systems Design</h4>
                 </div>
-                <hr/>
-            </div>
-        </section>
-        <section id="design">
-            <div class="col-md-6 col-lg-offset-3 proposal-content">
-                <h3>Design</h3>
-                <img src="../../app/resources/assets/images/pencil.png"/>
-                <div class="row">
-                    <div class="col-md-5">
-                        <h4>Systems design</h4>
-                    </div>
-                    <div class="col-md-5 item-content">
-                        <p>During this stage, the design functions and operations are described in detail. These functions and operations include screen layouts, business rules, process diagrams and other documentation. The output of this stage will describe the new system as a collection of modules or subsystems.</p>
-                        <p>The elements created during the design stage are largely derived from the approved requirements that we create during the planning phase. For each requirement, one or more design elements will be produced.</p>
-                        <p>At the end of this phase (typically 1-2 weeks), our deliverable will be a prototype that will accurately depict the functionality, flow and overall structure that should be expected when interacting with the real application. Our preferred tool to create prototypes is <a href="http://www.invisionapp.com/">Invision</a>.</p>
-                    </div>
-                    <br/>
+                <div class="col-md-5 item-content">
+                    <p>
+                    During this stage, the design functions and operations are described in detail. These functions and operations can include any combination of
+                    screen layouts, business rules, process diagrams and other documentation. The output of this stage will describe the new system as a collection of modules or subsystems.
+                  </p>
                 </div>
-                <hr/>
-            </div>
-        </section>
-        <section id="infrastructure">
-            <div class="col-md-6 col-lg-offset-3 proposal-content">
-                <h3>Setup Infrastructure</h3>
-                <img src="../../app/resources/assets/images/cloud.png"/>
-                <div class="row">
-                    <div class="col-md-5">
-                        <h4>Configure cloud hosting</h4>
-                    </div>
-                    <div class="col-md-5 item-content">
-                        <p>Setup of backend database to be hosted in the cloud.</p>
-                    </div>
-                    <br/>
-                    <br/>
+                <div class="col-md-5">
+                    <h4>UI/UX Development</h4>
                 </div>
-                <hr/>
+                <div class="col-md-6 item-content">
+                  <p>
+                    The elements created during the design stage are largely derived from the approved requirements that we create during the planning phase. 
+                    For each requirement, one or more design elements will be produced. At the end of this phase (typically 1-2 weeks), our deliverable will be a 
+                    prototype that will accurately depict the functionality, flow and overall structure that should be expected when interacting with the real application. 
+                    Our preferred tool to create prototypes is <a href="http://www.invisionapp.com/">Invision</a>.
+                  </p>
+                  </div>
+                <br/>
             </div>
-        </section>
-        <section id="development">
-            <div class="col-md-6 col-lg-offset-3 proposal-content">
-                <h3>Technical Implementation</h3>
-                <img src="../../app/resources/assets/images/devices.png"/>
-                <div class="row">
-                    <div class="col-md-12">
-                        <br/>
-                        <p>In this phase, we bring your idea and vision to life. We create your online presence based on
-                            the findings gained in the previous sections as well as the design.
-                        </p>
-                        <p>
-                            During this phase, we perform the actual coding. We will employ a test-driven development process
-                            to ensure the validity of the code that we write as we write it as opposed to solely relying on
-                            testing afterwards. This process will severely decrease the potential for bugs that would need to
-                            be addressed post-deployment.
-                        </p>
-                        <p>In addition, we will develop a number of cloud-hosted services that will allow seamless communication
-                            between the front-end client and the backend infrastructure.
-                        </p>
-                        <p>
-                            Finally, we will style the applications such that a consistency of design is maintained across each platform.
-                            This is typically the longest phase of the application development process.
-                        </p>
-                        <p>Our objective is to create a solid foundation by building an application that is highly scalable once
-                            demand increases and new features are added. Also, the code base will be well-documented for the purpose
-                            of optimal maintainability.
-                        </p>
-                    </div>
-                    <br/>
-                    <div class="col-md-3">
-                        <h4>Usability & User Experience</h4>
-                    </div>
-                    <div class="col-md-8 item-content">
-                        <p>Our primary focus is to create a simple yet elegant design that provides a seamless, pleasurable experience for the end user. The catalog of features will be classified logically and easily searchable.</p>
-                    </div>
-                    <br/>
-                    <div class="col-md-3">
-                        <h4>Responsive Design</h4>
-                    </div>
-                    <br/>
-                    <div class="col-md-8 item-content">
-                        <p>The application will be designed in such a way that the content will be presented logically based on the target device. To increase the readability and the perception of the side on these devices, we will optimize your new presence for all mobile devices.</p>
-                        <p>An automatic adjustment to the following devices:</p>
-                        <ul>
-                            <li>Smartphones</li>
-                            <li>Watches</li>
-                        </ul>
-                        <p>Responsive design assures that the application adapts to the screen upon which it is accessed.</p>
-                    </div>
-                    <br/>
-                    <br/>
-                    <div class="col-md-3">
-                        <h4>Hybrid Mobile Application Development</h4>
-                    </div>
-                    <div class="col-md-8 item-content">
-                        <p>
-                            Smartphone users have grown to expect certain functionality when viewing content on their devices. In order to remain competitive,
-                            it is imperative that these items are captured while pushing the envelope by incorporating cutting-edge features that are made
-                            available to developers for implementation in applications.
-                        </p>
-                        <p>
-                            We will leverage <a href="https://facebook.github.io/react-native/" target="_blank">React Native</a>,
-                            an immensely popular JavaScript framework, and Swift, a programming language designed to create native applications for Apple iPhone, Watch, Apple TV and Macs.
-                            React Native will allow us to build one application that will run on <a href="#">iOS</a>
-                            and <a href="#">Android</a> platforms, respectively. As previously stated, it is
-                            imperative that we maintain integrity across platforms in terms of design. Swift will provide the hooks needed to
-                            access native APIs such as HealthKit, WatchKit and Touch ID.
-                        </p>
-                        <p>
-                            While the application will be developed in such a way that it we will be able to deploy to Android and Apple devices, respectively,
-                            from one code base, I recommend that we focus intitially on developing for Apple devices (iPhone and Watch). Apple provides APIs (HealthKit and CareKit, among others)
-                            that will allow the application to work with user's shared health data.
-                        </p>
-                        <p>Our development schedule will be as follows:</p>
-                        <ul>
-                            <li>iPhone</li>
-                            <li>Apple Watch</li>
-                            <li>Website development</li>
-                            <li class="strike">Empatica (iOS)</li>
-                        </ul>
-                    </div>
-                    <br/>
+            <hr/>
+        </div>
+    </section>
+    <section id="infrastructure">
+        <div class="col-md-6 col-lg-offset-3 proposal-content">
+            <h3>Setup Infrastructure</h3>
+            <img src="./resources/assets/images/cloud.png"/>
+            <div class="row">
+                <div class="col-md-5">
+                    <h4>Configure cloud hosting</h4>
                 </div>
-                <hr/>
-            </div>
-        </section>
-        <section id="testing">
-            <div class="col-md-6 col-lg-offset-3 proposal-content">
-                <h3>Integration and Testing</h3>
-                <img src="../../app/resources/assets/images/tools.png"/>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 item-content">
-                        <p>After the code is developed it is tested against the requirements to make sure that the
-                            product is actually solving the needs addressed and gathered during the requirements phase.
-                            During this phase, we will use <a href="https://itunes.apple.com/us/app/testflight/id899247664?mt=8">TestFlight</a>
-                            to share the application with users to conduct beta testing before we release to the public.
-                        </p>
-                    </div>
-                    <br/>
+                <div class="col-md-5 item-content">
+                    For the first iteration <a href="https://www.techopedia.com/definition/27809/minimum-viable-product-mvp">(MVP)
+                    </a> of the application, we will leverage <a href="https://www.mongodb.com/cloud/atlas" target="_blank">MongoDB Atlas</a> 
+                    to manage the backend.
                 </div>
-                <hr/>
+                <br/>
+                <br/>
             </div>
-        </section>
-        <section id="deployment">
-            <div class="col-md-6 col-lg-offset-3 proposal-content">
-                <h3>Deployment</h3>
-                <img src="../../app/resources/assets/images/airplane.png"/>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 item-content">
-                        <p>Once we verify that the different components of the application work together as expected,
-                            we will submit the application to the App Store. The approval process normally lasts 10-14 days,
-                            although the times may vary...
-                        </p>
-                    </div>
+            <hr/>
+        </div>
+    </section>
+    <section id="development">
+        <div class="col-md-6 col-lg-offset-3 proposal-content">
+            <h3>Technical Implementation</h3>
+            <img src="./resources/assets/images/devices.png"/>
+            <div class="row">
+                <div class="col-md-12">
                     <br/>
+                    <p>In this phase, we bring your idea and vision to life. We create your online presence based on
+                        the findings gained in the previous sections as well as the design.
+                    </p>
+                    <p>
+                        During this phase, we perform the actual coding. We will employ a test-driven development process
+                        to ensure the validity of the code that we write as we write it as opposed to solely relying on
+                        testing afterwards. This process will severely decrease the potential for bugs that would need to
+                        be addressed post-deployment.
+                    </p>
+                    <p>In addition, we will develop a number of <a href="#infrastructure">cloud-hosted services</a> that will allow seamless communication
+                        between the front-end client and the backend infrastructure.
+                    </p>
+                    <p>
+                        Finally, we will style the applications such that a consistency of design is maintained across each platform.
+                        This is typically the longest phase of the application development process.
+                    </p>
+                    <p>
+                      Our objective is to create a solid foundation by building an application that is highly scalable once
+                        demand increases and new features are added. Also, the code base will be well-documented for the purpose
+                        of optimal maintainability.
+                    </p>
                 </div>
-                <hr/>
+                <br/>
+                <div class="col-md-3">
+                    <h4>User Interface & User Experience</h4>
+                </div>
+                <div class="col-md-8 item-content">
+                    <p>Our primary focus is to create a simple yet elegant design that provides a seamless, pleasurable experience 
+                      for the end user. The catalog of features will be classified logically and easily searchable.
+                    </p>
+                </div>
+                <br/>
+                <div class="col-md-3">
+                    <h4>Responsive Design</h4>
+                </div>
+                <br/>
+                <div class="col-md-8 item-content">
+                    <p>The application will be designed in such a way that the content will be presented logically based on the target device. 
+                      To increase the readability, we will optimize your new presence for the myriad of mobile devices that are currently on the market.</p>
+                    <p>An automatic adjustment to the following devices:</p>
+                    <ul>
+                        <li>Smartphones</li>
+                        <li>Tablets</li>
+                    </ul>
+                    <p>Responsive design assures that the application adapts to the screen upon which it is accessed.</p>
+                </div>
+                <br/>
+                <br/>
+                <div class="col-md-3">
+                    <h4>Native Application Development</h4>
+                </div>
+                <div class="col-md-8 item-content">
+                    <p>
+                        Smartphone users have grown to expect certain functionality when viewing content on their devices. In order to remain competitive,
+                        it is imperative that these expected behaviors are incorporated into the application while also pushing the envelope by incorporating 
+                        cutting-edge features that are made available to developers for implementation in applications.
+                    </p>
+                    <p>
+                      The native (mobile) application, in the same vein as Uber, will enable Customers to book services while also giving Owners the abiilty to easily
+                      manage service requests that have been made for their boat, yacht, jet skis, etc.
+                    </p>
+                    <p>
+                        We will leverage <a href="https://facebook.github.io/react-native/" target="_blank">React Native</a>,
+                        an immensely popular JavaScript framework that was created by members of the team at Facebook, to build the application.
+                        React Native will allow us to build one application that will run on <a href="#">iOS</a>
+                        and <a href="#">Android</a> platforms, respectively. As previously stated, it is
+                        imperative that we maintain integrity across platforms in terms of design.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                  <h4>Web Application Development</h4>
+              </div>
+              <div class="col-md-8 item-content">
+                  <p>In addition to the native application that will connect Customers and Owners, an accompanying web application must be built.
+                    Similar to <a href="http://www.uber.com">Uber's</a> website, the main objective of the web application will be to serve as  
+                    a source of information to the potential Owners and Customers. Customers will have the ability to manage reservations, payment 
+                    options and review excursion history. Also, an <strong>Admin Dashboard</strong> will be built for Owners that will enable them to 
+                    view their payouts along with a variety of analytics seamlessly. The details here are TBD and requirements will be fleshed out in such a way 
+                    that we build according to what we learn from the users' interaction with the application. 
+                  </p>
+                  <p>
+                      We will leverage <a href="https://facebook.github.io/react/" target="_blank">React</a>, the web-focused companion to React Native, 
+                      to build the web application. Becasue these frameworks are loosely coupled, several elements of the web and native applications can be shared
+                      and reused across platforms. This will yield tighter integration and aloow for rapid application development.
+                  </p>
+                  <br/>
+                  <h4>Our development schedule will be as follows:</h4>
+                  <ul>
+                      <li>Native Application</li>
+                      <li>Web Application</li>
+                  </ul>
+              </div>
+                <br/>
             </div>
-        </section>
-        <section id="investment">
-            <div class="col-md-6 col-lg-offset-3 proposal-content">
-                <h3>Investment</h3>
-                <img src="../../app/resources/assets/images/dollars.png"/>
-                <p class="proposal-content">Our task will be to provide a robust system that integrates services such as Smart 911
-                    and <a heref="https://checkr.com/">Checkr</a> while also providing a level of integration with <a href="http://www.apple.com/ios/health/">Apple Health</a>.
-                    By using open web-standards and employing software development best practices, we will create an engaging experience
-                    that will compel users to register and become active members of the {client} community.
-                </p>
-                <p class="proposal-content">In order to adhere to the proposed schedule, we estimate a budget of $50,000.
-                    Here is an itemized breakdown:
-                </p>
-                <ul>
-                    <li>$10000 - Application Logic</li>
-                    <li>$7500 - UI Design (iPhone)</li>
-                    <li class="strike">$5000 - UI Design (Watch)</li>
-                    <li>$5000 - Motion Detection Setup (iPhone and Watch)</li>
-                    <li>$5000 - Backend Integration</li>
-                    <li>$2500 - Authentication</li>
-                    <li>$2500 - Maps Integration (GPS, Directions)</li>
-                    <li>$2500 - Push Notifications</li>
-                    <li class="strike">$2500 - CareKit Integration</li>
-                    <li>$2500 - Touch ID Integration</li>
-                    <li class="strike">$2500 - 3D Touch Integration</li>
-                    <li class="strike">$2500 - Smart 911 Integration</li>
-                    <li>Empatica Integration (iOS)</li>
-                    <li>Website Development</li>
-                </ul>
-                <p>We request a $15,000 down payment to begin the <a href="#infrastructure">Infrastructure Setup</a> and
-                    <a href="#development">Technical Implementation</a> phases.
-                </p>
-                <p>In addition, we will require a $1000 monthly retainer to maintain the existing codebase. Some examples of occurrences
-                    that would warrant maintenance include the following:
-                </p>
-                <ul class="item-content">
-                    <li>Modifications needed as a result of changes made to operating system that would cause break in application.</li>
-                    <li>Change in 3rd party software used to build the application that would cause break in application.</li>
-                    <li>Miscellaneous unexpected breakage in the system that would warrant immediate fixing.</li>
-                </ul>
-                <p class="proposal-content">From the start of the project to our first deployment to the App Store, we estimate 10-14 weeks.</p>
-                <p class="proposal-content"><strong>If you have any further questions, do not hesitate to reach out to me via email or phone.</strong></p>
-                <p><strong>Phone: 646.787.5208 / Email: dana@brightideas.nyc</strong></p>
-                <hr/>
+            <hr/>
+        </div>
+    </section>
+    <section id="testing">
+        <div class="col-md-6 col-lg-offset-3 proposal-content">
+            <h3>Integration and Testing</h3>
+            <img src="./resources/assets/images/tools.png"/>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 item-content">
+                    <p>After the code is developed it is tested against the requirements to make sure that the
+                        product is actually solving the needs addressed and gathered during the requirements phase.
+                        During this phase, we will use <a href="https://itunes.apple.com/us/app/testflight/id899247664?mt=8">TestFlight</a> for iPhone
+                        and <a href="http://try.crashlytics.com/beta/">Crashlytics</a> for Android
+                        to share the application with users to conduct beta testing before we release to the public.
+                    </p>
+                </div>
+                <br/>
             </div>
-        </section>
+            <hr/>
+        </div>
+    </section>
+    <section id="deployment">
+        <div class="col-md-6 col-lg-offset-3 proposal-content">
+            <h3>Deployment</h3>
+            <img src="./resources/assets/images/airplane.png"/>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 item-content">
+                    <p>Once we verify that the different components of the application work together as expected,
+                        we will submit the application to the Apple and Google Play App Stores. The approval process normally lasts 10-14 days,
+                        although the actual response times may vary...
+                    </p>
+                </div>
+                <br/>
+            </div>
+            <hr/>
+        </div>
+    </section>
+    <section id="investment">
+        <div class="col-md-6 col-lg-offset-3 proposal-content">
+            <h3>Investment</h3>
+            <img src="./resources/assets/images/dollars.png"/>
+            <p class="proposal-content">Our task will be to provide a robust system that integrates services such as Smart 911
+                and <a heref="https://checkr.com/">Checkr</a> while also providing a level of integration with <a href="http://www.apple.com/ios/health/">Apple Health</a>.
+                By using open web-standards and employing software development best practices, we will create an engaging experience
+                that will compel users to register and become active members of the BeKon community.
+            </p>
+            <p class="proposal-content">In order to adhere to the proposed schedule, we estimate a budget of $50,000.
+                Here is an itemized breakdown:
+            </p>
+            <ul>
+                <li>$10000 - UI/UX Development</li>          
+                <li>$30000 - Native Application Development</li>
+                <li>$10000 - Website Application Design and Development</li>
+            </ul>
+            <p>We request a $10,000 down payment to begin the <a href="#design">UI/UX Design</a> phase. Subsequent payments would be spread out evenly over the next 10 months. 
+            </p>
+            <p>
+              In addition, we request a 30% equity stake in the company, which will be earmarked for future members of the development team. The 
+              shares would vest over a period TBD. The main objective for this approach is be a bit proactive in the way that we incentivize potential
+              talent to come on board during the recruitment process. 
+              <a href="https://www.bloomberg.com/news/articles/2018-06-05/a-9-500-stock-surge-turns-janitors-into-millionaires-in-china" target="_blank">This Chinese company</a> took a similar approach which I believe will become more 
+              commonplace in the future.  
+            </p>
+            <p class="proposal-content">
+              From the start of the project to our first deployment to the App Stores, we estimate 18-24 weeks. The objective at that point will be to launch
+              v1, achieve market validation and gain traction with Owners and Customers.
+            </p>
+            <p class="proposal-content"><strong>If you have any further questions, do not hesitate to reach out to me via email or phone.</strong></p>
+            <p><strong>Phone: 646.787.5208 / Email: dana@brightideasdigital.com</strong></p>
+            <hr/>
+        </div>
+    </section>
         </div>
     )
 }
